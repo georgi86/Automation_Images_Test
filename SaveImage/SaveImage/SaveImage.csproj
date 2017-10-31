@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{3C96DF94-B3F3-4E3A-96D8-2D24E413EF43}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SaveImage</RootNamespace>
+    <AssemblyName>SaveImage</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>7653aa5c-b3b6-45e9-815c-b48562edf1f1</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>e35b02fd-827b-4eb4-b272-a7676af5e6c2</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>8114f0f4-0879-4fb3-8e4a-95a1d128590f</id>
+    </Compile>
+    <Compile Include="SaveFullScreen.cs">
+      <BoundTo>44002661-d7b9-4d58-9db1-6e163721e62d</BoundTo>
+      <DependentUpon>SaveFullScreen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>deb62d00-db69-451e-8862-58c81d03d060</id>
+    </Compile>
+    <Compile Include="SaveFullScreen.UserCode.cs">
+      <BoundTo>44002661-d7b9-4d58-9db1-6e163721e62d</BoundTo>
+      <DependentUpon>SaveFullScreen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7903106d-d81c-49ea-b839-dc1315809fcd</id>
+    </Compile>
+    <Compile Include="SaveImage.cs">
+      <BoundTo>096fa283-d926-4389-9352-eada48c833e7</BoundTo>
+      <DependentUpon>SaveImage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f42dae35-1418-4795-9d05-18a59b7db97e</id>
+    </Compile>
+    <Compile Include="SaveImage.UserCode.cs">
+      <BoundTo>096fa283-d926-4389-9352-eada48c833e7</BoundTo>
+      <DependentUpon>SaveImage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0cf5bdd-d060-48a9-b3a6-44ef9045e90c</id>
+    </Compile>
+    <Compile Include="SaveImageRepository.cs">
+      <BoundTo>7653aa5c-b3b6-45e9-815c-b48562edf1f1</BoundTo>
+      <DependentUpon>SaveImageRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>6fe3e29d-f92e-4e86-8eee-11152f0ec6ac</id>
+    </Compile>
+    <Compile Include="SaveImageWithTarget.cs">
+      <BoundTo>994b2980-d82a-4222-910f-a14248d9dbe7</BoundTo>
+      <DependentUpon>SaveImageWithTarget.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d2dee3a3-cfc8-48b9-8bf6-4ee406d63c97</id>
+    </Compile>
+    <Compile Include="SaveImageWithTarget.UserCode.cs">
+      <BoundTo>994b2980-d82a-4222-910f-a14248d9dbe7</BoundTo>
+      <DependentUpon>SaveImageWithTarget.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2cb7e560-4b13-45ef-876d-d8ec27ca85f3</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>3ae4d0b2-5af9-4d85-b211-bee55719e776</id>
+    </None>
+    <None Include="SaveFullScreen.rxrec">
+      <BoundTo>7653aa5c-b3b6-45e9-815c-b48562edf1f1</BoundTo>
+      <id>44002661-d7b9-4d58-9db1-6e163721e62d</id>
+      <recordtableid>320f23d3-03bc-4c40-8690-a70826297057</recordtableid>
+    </None>
+    <None Include="SaveImage.rxrec">
+      <BoundTo>7653aa5c-b3b6-45e9-815c-b48562edf1f1</BoundTo>
+      <id>096fa283-d926-4389-9352-eada48c833e7</id>
+      <recordtableid>a1f8f5c8-e0e2-481f-af81-c4935289cae8</recordtableid>
+    </None>
+    <None Include="SaveImageRepository.rximg">
+      <BoundTo>7653aa5c-b3b6-45e9-815c-b48562edf1f1</BoundTo>
+      <DependentUpon>SaveImageRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>03c3a17d-45fb-41e4-a254-4466c91f9ca0</id>
+    </None>
+    <None Include="SaveImageRepository.rxrep">
+      <id>7653aa5c-b3b6-45e9-815c-b48562edf1f1</id>
+      <repoid>a383110c-3d6b-4173-96b4-a517b126b84c</repoid>
+      <reporootid>90d8d3e5-da2b-4209-bfdc-a2ba6b3ed884</reporootid>
+    </None>
+    <None Include="SaveImageWithTarget.rxrec">
+      <BoundTo>7653aa5c-b3b6-45e9-815c-b48562edf1f1</BoundTo>
+      <id>994b2980-d82a-4222-910f-a14248d9dbe7</id>
+      <recordtableid>e8ceabbb-3738-4ce3-b22a-feabed3477d7</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SaveImage.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e03f8f52-5e40-400d-8bed-e83e3c772076</id>
+    </Content>
+    <Content Include="SaveImage.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>74a10887-2e5f-4b03-b60c-83d30be4dba0</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

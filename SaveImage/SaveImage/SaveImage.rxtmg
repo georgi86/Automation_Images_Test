@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="SaveImage"
+      id="3fd2ee6b-9b7b-4991-8aa4-ad2d27637d86"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="SaveImage"
+      id="3fd2ee6b-9b7b-4991-8aa4-ad2d27637d86"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="SaveFullScreen.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="SaveImage.rxtst" />
+    <Element value="SaveImage.rxrec" />
+    <Element value="SaveImageWithTarget.rxrec" />
+    <Element value="SaveFullScreen.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
