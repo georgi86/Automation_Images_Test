@@ -85,15 +85,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(1));
             repo.SaveFullScreen.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen'.", new RecordItemIndex(2));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(3));
             repo.SaveFullScreen.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveFullScreen' at Center.", repo.SnapXAutoRunModeUntitled.SaveFullScreenInfo, new RecordItemIndex(4));
             repo.SnapXAutoRunModeUntitled.SaveFullScreen.Click();
@@ -120,15 +120,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(10));
             repo.SaveFullScreen.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen'.", new RecordItemIndex(11));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(12));
             repo.SaveFullScreen.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveFullScreen' at Center.", repo.SnapXAutoRunModeUntitled.SaveFullScreenInfo, new RecordItemIndex(13));
             repo.SnapXAutoRunModeUntitled.SaveFullScreen.Click();
@@ -155,15 +155,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(19));
             repo.SaveFullScreen.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen'.", new RecordItemIndex(20));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(21));
             repo.SaveFullScreen.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveFullScreen' at Center.", repo.SnapXAutoRunModeUntitled.SaveFullScreenInfo, new RecordItemIndex(22));
             repo.SnapXAutoRunModeUntitled.SaveFullScreen.Click();
@@ -190,15 +190,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(28));
             repo.SaveFullScreen.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen'.", new RecordItemIndex(29));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(30));
             repo.SaveFullScreen.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveFullScreen' at Center.", repo.SnapXAutoRunModeUntitled.SaveFullScreenInfo, new RecordItemIndex(31));
             repo.SnapXAutoRunModeUntitled.SaveFullScreen.Click();
@@ -225,15 +225,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(37));
             repo.SaveFullScreen.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen'.", new RecordItemIndex(38));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(39));
             repo.SaveFullScreen.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveFullScreen' at Center.", repo.SnapXAutoRunModeUntitled.SaveFullScreenInfo, new RecordItemIndex(40));
             repo.SnapXAutoRunModeUntitled.SaveFullScreen.Click();
@@ -260,11 +260,11 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(46));
             repo.SaveFullScreen.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen'.", new RecordItemIndex(47));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(48));
             repo.SaveFullScreen.Text1001.PressKeys("{Return}");
@@ -299,11 +299,11 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen'.", new RecordItemIndex(56));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\fullscreen");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveFullScreen.Text1001'.", repo.SaveFullScreen.Text1001Info, new RecordItemIndex(57));
             repo.SaveFullScreen.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveFullScreen' at 47;18.", repo.SnapXAutoRunModeUntitled.SaveFullScreenInfo, new RecordItemIndex(58));
             repo.SnapXAutoRunModeUntitled.SaveFullScreen.Click("47;18");
@@ -315,7 +315,7 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Escape}'.", new RecordItemIndex(60));
             Keyboard.Press("{Escape}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
         }
 

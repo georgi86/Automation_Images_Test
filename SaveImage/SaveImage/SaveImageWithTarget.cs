@@ -85,15 +85,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(1));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target'.", new RecordItemIndex(2));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(3));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveImageAndTarget' at Center.", repo.SnapXAutoRunModeUntitled.SaveImageAndTargetInfo, new RecordItemIndex(4));
             repo.SnapXAutoRunModeUntitled.SaveImageAndTarget.Click();
@@ -120,15 +120,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(10));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target'.", new RecordItemIndex(11));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(12));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveImageAndTarget' at Center.", repo.SnapXAutoRunModeUntitled.SaveImageAndTargetInfo, new RecordItemIndex(13));
             repo.SnapXAutoRunModeUntitled.SaveImageAndTarget.Click();
@@ -155,15 +155,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(19));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target'.", new RecordItemIndex(20));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(21));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveImageAndTarget' at Center.", repo.SnapXAutoRunModeUntitled.SaveImageAndTargetInfo, new RecordItemIndex(22));
             repo.SnapXAutoRunModeUntitled.SaveImageAndTarget.Click();
@@ -194,11 +194,11 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target'.", new RecordItemIndex(29));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(30));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveImageAndTarget' at Center.", repo.SnapXAutoRunModeUntitled.SaveImageAndTargetInfo, new RecordItemIndex(31));
             repo.SnapXAutoRunModeUntitled.SaveImageAndTarget.Click();
@@ -225,15 +225,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(37));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target'.", new RecordItemIndex(38));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(39));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveImageAndTarget' at Center.", repo.SnapXAutoRunModeUntitled.SaveImageAndTargetInfo, new RecordItemIndex(40));
             repo.SnapXAutoRunModeUntitled.SaveImageAndTarget.Click();
@@ -260,15 +260,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(46));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target'.", new RecordItemIndex(47));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(48));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveImageAndTarget' at Center.", repo.SnapXAutoRunModeUntitled.SaveImageAndTargetInfo, new RecordItemIndex(49));
             repo.SnapXAutoRunModeUntitled.SaveImageAndTarget.Click();
@@ -295,15 +295,15 @@ namespace SaveImage
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(55));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target'.", new RecordItemIndex(56));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationImages\\Reports\\target");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SaveImageAndTarget.Text1001'.", repo.SaveImageAndTarget.Text1001Info, new RecordItemIndex(57));
             repo.SaveImageAndTarget.Text1001.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXAutoRunModeUntitled.SaveImageAndTarget' at 48;18.", repo.SnapXAutoRunModeUntitled.SaveImageAndTargetInfo, new RecordItemIndex(58));
             repo.SnapXAutoRunModeUntitled.SaveImageAndTarget.Click("48;18");
